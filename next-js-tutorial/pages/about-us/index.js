@@ -21,7 +21,7 @@ function AboutUs(){
     <ul>
       {details.map((item) => (
         <li key={item.id}>
-          <a >{item.name}</a>
+          <a href={`about-us/${item.id}`}>{item.name}</a>
         </li>
       ))}
     </ul>
